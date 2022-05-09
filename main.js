@@ -7,8 +7,8 @@ window.addEventListener("mousemove",function(e){
     cursor.style.left = e.pageX;
     cursor.style.top = e.pageY;
 
-    theBody.addEventListener("click", function() {
+    theBody.onclick = function(){
         console.log("hellow dannie")
-      });
+    };
 
 })
