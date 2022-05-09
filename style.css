@@ -5,14 +5,8 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-
-/* #testarea {
-  width: 100%;
-  height: 100vh;
-  cursor: none;
-} */
  
- .cursor {
+.cursor {
   width: 30px;
   height: 30px;
   background-color:rgba(250, 128, 114, 0.774);
@@ -20,11 +14,11 @@
   border-radius: 50%;
   border: 2px solid #fa8072;
   transform: translate(-50%,-50%);
- }
+}
 
- body{
+body{
   cursor: url('img/jonas.png'),auto;
-  width: 100vh;
+  width: 100%;
   height: 100vh;
 }
 
